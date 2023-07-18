@@ -7,7 +7,7 @@ function handle_add_publication_category() {
         $category_name = sanitize_text_field($_POST['publication_category_name']);
         $term = wp_insert_term($category_name, 'publication_category');
 
-        if (!is_wp_error($term)) {
+        if (!is_wp_error($term)) {  
             wp_redirect(admin_url('admin.php?page=publications'));
             exit;
         }

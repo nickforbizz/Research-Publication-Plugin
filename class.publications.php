@@ -8,7 +8,7 @@ Author: Nicholas Waruingi
 Author URI: http://your-website.com
 License: GPL2
 */
-
+  
 class ScientificPublicationsPlugin {
     // Constructor
     public function __construct() {
